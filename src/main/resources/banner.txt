@@ -1,0 +1,10 @@
+
+   _____  .__             ________  .__       .__  __         .__
+  /  _  \ |  |   ____     \______ \ |__| ____ |__|/  |______  |  |
+ /  /_\  \|  |  /  _ \     |    |  \|  |/ ___\|  \   __\__  \ |  |
+/    |    \  |_(  <_> )    |    `   \  / /_/  >  ||  |  / __ \|  |__
+\____|__  /____/\____/    /_______  /__\___  /|__||__| (____  /____/
+        \/                        \/  /_____/               \/
+:: Componente de Servidor SFTP (componente-sftp) - ${application.version} ::
+:: Running Spring Boot ${spring-boot.version} ::
+:: desarrollado por Cesar's Pinedo, cesarspinedo.com ::
