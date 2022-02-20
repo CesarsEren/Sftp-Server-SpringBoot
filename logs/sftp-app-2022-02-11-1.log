@@ -1,0 +1,35 @@
+2022-02-11 00:04:05.926  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62402]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-11 00:04:15.657  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62423 authenticated
+2022-02-11 00:14:16.925  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62423]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-11 00:14:26.543  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62446 authenticated
+2022-02-11 00:24:27.928  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62446]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-11 00:24:37.784  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62460 authenticated
+2022-02-11 00:32:38.791  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 152 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-11 00:32:38.791 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-11 00:32:38.791  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-11 00:32:39.244  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-11 00:32:39.244  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-11 00:32:39.369  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-11 00:32:39.369  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-11 00:32:39.369  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-11 00:32:39.369  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-11 00:32:39.369  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-11 00:32:39.384  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-11 00:32:39.384  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-11 00:32:39.478  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.204 seconds (JVM running for 3.055)
+2022-02-11 00:33:01.619  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 10928 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-11 00:33:01.624 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-11 00:33:01.625  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-11 00:33:02.091  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-11 00:33:02.092  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-11 00:33:02.196  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-11 00:33:02.196  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-11 00:33:02.197  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-11 00:33:02.198  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-11 00:33:02.198  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-11 00:33:02.210  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-11 00:33:02.227  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-11 00:33:02.314  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.195 seconds (JVM running for 3.189)
+2022-02-11 00:33:09.620  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62511 authenticated
+2022-02-11 00:43:11.226  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62511]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-11 00:43:20.674  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:54028 authenticated

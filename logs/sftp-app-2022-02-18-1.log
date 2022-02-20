@@ -1,0 +1,283 @@
+2022-02-18 20:31:33.122  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 6656 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 20:31:33.138 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 20:31:33.138  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 20:31:38.435  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 20:31:39.696  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 20:31:41.375  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 20:32:24.893  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:32:26.637  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 20:32:26.637  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:32:26.637  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 20:32:26.715  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 20:32:26.762  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 20:32:27.355  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 54.711 seconds (JVM running for 59.142)
+2022-02-18 20:32:57.174  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:56790 authenticated
+2022-02-18 20:43:12.775  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56790]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 20:43:23.095  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49266 authenticated
+2022-02-18 20:44:46.887  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 3888 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 20:44:46.887 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 20:44:46.887  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 20:44:50.534  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 20:44:50.534  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 20:44:50.674  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 20:44:50.674  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:44:50.674  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 20:44:50.674  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:44:50.674  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 20:44:50.690  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 20:44:50.721  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 20:44:50.830  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 4.458 seconds (JVM running for 7.564)
+2022-02-18 20:44:50.987  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:44:51.111  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:44:51.327  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:44:51.343  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:44:51.358  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/127.0.0.1:49282 authenticated
+2022-02-18 20:45:17.454  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:45:17.470  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:17.595  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:22.278  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:22.278  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49285 authenticated
+2022-02-18 20:45:55.425  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 9472 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 20:45:55.425 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 20:45:55.425  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 20:45:55.984  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 20:45:55.984  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 20:45:56.106  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 20:45:56.106  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:45:56.106  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 20:45:56.106  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:45:56.106  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 20:45:56.122  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 20:45:56.153  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 20:45:56.253  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.267 seconds (JVM running for 4.097)
+2022-02-18 20:45:57.987  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:45:58.015  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:58.181  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:58.212  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:45:58.217  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49298 authenticated
+2022-02-18 20:46:47.403  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 20536 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 20:46:47.405 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 20:46:47.406  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 20:46:47.991  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 20:46:47.992  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 20:46:48.129  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 20:46:48.129  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:46:48.131  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 20:46:48.131  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 20:46:48.132  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 20:46:48.147  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 20:46:48.168  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 20:46:48.286  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.326 seconds (JVM running for 4.643)
+2022-02-18 20:46:48.688  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:46:48.765  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : sessionNegotiationStart El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:46:48.797  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:46:49.040  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:46:49.082  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:46:49.087  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49307 authenticated
+2022-02-18 20:47:08.514  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:47:08.533  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : sessionNegotiationStart El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 20:47:08.533  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:47:08.658  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:47:12.786  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 20:47:12.787  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49310 authenticated
+2022-02-18 20:48:45.643  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.723  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : sessionNegotiationStart El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.730  WARN DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49307])[state=Opened] InterruptedByTimeoutException: null
+2022-02-18 21:02:55.730  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.734  WARN DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49310])[state=Opened] InterruptedByTimeoutException: null
+2022-02-18 21:02:55.733  WARN DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49324])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.736  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 21:02:55.737  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : El USUARIO BREO01, se acaba de desconectar
+2022-02-18 21:02:55.737  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : El USUARIO BREO01, se acaba de desconectar
+2022-02-18 21:02:55.737  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.739  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49307]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 21:02:55.746  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49310]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 21:02:55.748  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49321]): SSH2_DISCONNECT_PROTOCOL_ERROR - Session has timed out waiting for authentication after 120000 ms.
+2022-02-18 21:02:55.749  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49321]): SSH2_DISCONNECT_PROTOCOL_ERROR - Session has timed out waiting for authentication after 120000 ms.
+2022-02-18 21:02:55.750  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.756  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.757  WARN DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49336])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.757  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.759  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.760  WARN DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49352])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.760  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.761  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.762  WARN DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49356])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.763  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.764  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.765  WARN DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49365])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.765  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.767  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.767  WARN DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:51114])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.768  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.769  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.770  WARN DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:51120])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.770  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:02:55.771  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:02:55.772  WARN DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:51126])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:02:55.773  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : El USUARIO null, se acaba de desconectar
+2022-02-18 21:03:03.704  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 14464 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:03:03.706 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:03:03.707  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:03:16.415  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:03:22.257  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:03:23.389  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:03:24.661  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:03:25.636  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:03:25.661  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:03:25.661  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:03:25.730  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:03:25.803  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:03:26.402  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 23.146 seconds (JVM running for 26.095)
+2022-02-18 21:03:46.053  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : sessionCreated El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:04:16.711  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : sessionNegotiationStart El USUARIO null, se acaba de conectar desde la MAC : null
+2022-02-18 21:04:16.744  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ACCIÓN {}
+2022-02-18 21:15:06.781  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 2468 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:15:06.781 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:15:06.781  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:15:15.853  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:15:17.834  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:15:19.162  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:15:21.181  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:15:21.992  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:15:22.008  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:15:22.008  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:15:22.086  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:15:22.148  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:15:22.792  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 16.428 seconds (JVM running for 19.243)
+2022-02-18 21:15:35.182  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:53669 authenticated
+2022-02-18 21:15:35.368  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:15:49.166 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:53669])[/] 3 entries
+2022-02-18 21:16:30.806 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:53669])[/] 4 entries
+2022-02-18 21:26:31.164  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:53669]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 21:26:41.438  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49524 authenticated
+2022-02-18 21:26:41.490  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:30:55.680  WARN DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49528])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:30:55.692  WARN DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerSessionImpl              : exceptionCaught(ServerSessionImpl[null@/0:0:0:0:0:0:0:1:49532])[state=Opened] IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+2022-02-18 21:32:41.091  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 21996 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:32:41.093 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:32:41.094  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:32:43.540  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:32:44.525  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:32:45.384  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:32:47.906  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:32:48.652  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:32:48.711  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:32:48.712  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:32:48.801  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:32:48.890  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:32:49.555  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 8.894 seconds (JVM running for 11.424)
+2022-02-18 21:33:06.167  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49553 authenticated
+2022-02-18 21:33:06.366  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:33:17.114 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49553])[/] 4 entries
+2022-02-18 21:34:16.704 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49553])[/] 5 entries
+2022-02-18 21:34:30.481 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49553])[/] 4 entries
+2022-02-18 21:34:58.631 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49553])[/] 5 entries
+2022-02-18 21:37:12.147 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49553])[/] 6 entries
+2022-02-18 21:37:21.854  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 18280 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:37:21.857 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:37:21.858  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:37:24.110  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:37:25.136  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:37:26.037  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:37:26.729  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:37:27.255  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:37:27.268  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:37:27.269  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:37:27.362  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:37:27.424  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:37:28.028  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 6.655 seconds (JVM running for 9.531)
+2022-02-18 21:37:34.323  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:49583 authenticated
+2022-02-18 21:37:34.466  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:37:39.777 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49583])[/] 6 entries
+2022-02-18 21:37:48.649 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49583])[/] 4 entries
+2022-02-18 21:37:57.414  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : SE ENTREGA ARCHIVO :/agachadito.png
+2022-02-18 21:38:00.246  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : SE ENTREGA ARCHIVO :/agachadito.png
+2022-02-18 21:38:06.489  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : SE ENTREGA ARCHIVO :/agachadito.png
+2022-02-18 21:38:07.545 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49583])[/] 5 entries
+2022-02-18 21:41:27.869  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : SE ENTREGA ARCHIVO :/backup.sql
+2022-02-18 21:41:30.024 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:49583])[/] 6 entries
+2022-02-18 21:43:47.332  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 11232 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:43:47.347 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:43:47.347  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:43:47.879  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:43:47.879  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:43:48.004  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:43:48.004  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:43:48.004  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:43:48.004  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:43:48.004  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:43:48.019  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:43:48.035  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:43:48.144  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.22 seconds (JVM running for 4.197)
+2022-02-18 21:43:56.459  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:56370 authenticated
+2022-02-18 21:43:56.600  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:43:56.834 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56370])[/] 6 entries
+2022-02-18 21:44:05.246  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/buscar.png.filepart
+2022-02-18 21:44:08.541  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/buscar.png.filepart
+2022-02-18 21:44:10.401  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/buscar.png.filepart
+2022-02-18 21:44:10.573  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/buscar.png.filepart
+2022-02-18 21:44:10.604  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/buscar.png.filepart
+2022-02-18 21:44:10.604  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/buscar.png.filepart hasta :/buscar.png
+2022-02-18 21:44:15.999 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56370])[/] 7 entries
+2022-02-18 21:44:48.695  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 4632 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-18 21:44:48.695 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-18 21:44:48.695  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-18 21:44:49.273  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-18 21:44:49.273  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-18 21:44:49.412  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-18 21:44:49.412  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:44:49.414  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-18 21:44:49.414  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-18 21:44:49.414  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-18 21:44:49.430  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-18 21:44:49.450  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-18 21:44:49.549  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.329 seconds (JVM running for 7.355)
+2022-02-18 21:45:03.155  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:56383 authenticated
+2022-02-18 21:45:03.362  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:45:03.612 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 7 entries
+2022-02-18 21:45:19.009  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/agachadito.png hasta :/Nuevo grupo/agachadito.png
+2022-02-18 21:45:19.076 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 6 entries
+2022-02-18 21:45:38.373 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 7 entries
+2022-02-18 21:45:48.878  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/buscar.png hasta :/RECIVED/buscar.png
+2022-02-18 21:45:48.936 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 6 entries
+2022-02-18 21:47:22.204 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 5 entries
+2022-02-18 21:48:30.204 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 4 entries
+2022-02-18 21:49:27.682 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383])[/] 3 entries
+2022-02-18 21:59:28.466  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:56383]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 21:59:38.582  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62208 authenticated
+2022-02-18 21:59:38.629  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 21:59:38.762 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208])[/] 3 entries
+2022-02-18 22:01:18.665  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:18.823  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:18.978  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:19.134  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:19.274  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:25.580  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/sysventa.db.filepart hasta :/sysventa.db
+2022-02-18 22:01:32.404 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208])[/] 4 entries
+2022-02-18 22:01:37.386  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/backup.sql
+2022-02-18 22:01:37.466 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208])[/] 5 entries
+2022-02-18 22:01:43.843 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208])[/] 4 entries
+2022-02-18 22:01:47.312  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:47.471  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:47.629  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:47.787  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:47.927  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-18 22:01:47.936  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/sysventa.db.filepart hasta :/sysventa.db
+2022-02-18 22:01:50.687 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208])[/] 5 entries
+2022-02-18 22:11:51.458  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 22:12:01.811  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62357 authenticated
+2022-02-18 22:12:01.862  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 22:12:02.037 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62357])[/] 5 entries
+2022-02-18 22:22:03.457  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62357]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 22:22:13.681  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62591 authenticated
+2022-02-18 22:22:13.732  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 22:22:13.922 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62591])[/] 5 entries
+2022-02-18 22:32:15.460  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62591]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 22:32:25.988  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62803 authenticated
+2022-02-18 22:32:26.064  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 22:32:26.277 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62803])[/] 5 entries
+2022-02-18 22:42:27.450  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62803]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-18 22:42:37.844  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:63016 authenticated
+2022-02-18 22:42:37.894  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-18 22:42:38.066 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:63016])[/] 5 entries

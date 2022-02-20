@@ -1,0 +1,138 @@
+2022-02-19 10:08:53.929  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 3956 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-19 10:08:53.944 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-19 10:08:53.944  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-19 10:08:57.357  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-19 10:08:57.357  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-19 10:08:57.513  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-19 10:08:57.513  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-19 10:08:57.513  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-19 10:08:57.513  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-19 10:08:57.513  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-19 10:08:57.529  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-19 10:08:57.560  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-19 10:08:57.670  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 4.21 seconds (JVM running for 7.899)
+2022-02-19 10:09:11.967  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59729 authenticated
+2022-02-19 10:09:12.170  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 10:09:12.401 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729])[/] 5 entries
+2022-02-19 10:09:25.618  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ELIMINA EL ARCHIVO : /sysventa.db
+2022-02-19 10:09:28.512 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729])[/] 4 entries
+2022-02-19 10:09:52.624  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/PhotoshopPrefsManager-20200223-205129.log
+2022-02-19 10:09:52.671 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729])[/] 5 entries
+2022-02-19 10:10:02.536  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/PhotoshopPrefsManager-20200223-205129.log hasta :/RECIVED/PhotoshopPrefsManager-20200223-205129.log
+2022-02-19 10:10:08.416 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729])[/] 4 entries
+2022-02-19 10:16:39.997  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-19 10:16:39.999  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-19 10:16:40.001  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-19 10:16:40.002  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-19 10:16:40.003  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE ENTREGA ARCHIVO :/sysventa.db.filepart
+2022-02-19 10:16:40.007  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : [BREO01] SE MUEVE EL ARCHIVO de:/sysventa.db.filepart hasta :/sysventa.db
+2022-02-19 10:16:40.040 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729])[/] 5 entries
+2022-02-19 10:27:19.564  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59729]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 10:27:29.038  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59881 authenticated
+2022-02-19 10:27:29.069  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 10:27:29.185 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59881])[/] 5 entries
+2022-02-19 10:37:30.563  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59881]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 10:37:40.072  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59902 authenticated
+2022-02-19 10:37:40.102  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 10:37:40.233 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59902])[/] 5 entries
+2022-02-19 10:47:41.572  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59902]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 10:47:51.128  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59942 authenticated
+2022-02-19 10:47:51.159  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 10:47:51.281 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59942])[/] 5 entries
+2022-02-19 10:57:52.560  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59942]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 10:58:02.195  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59969 authenticated
+2022-02-19 10:58:02.225  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 10:58:02.350 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59969])[/] 5 entries
+2022-02-19 11:08:03.560  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59969]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:08:13.286  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:59992 authenticated
+2022-02-19 11:08:13.315  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:08:13.433 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59992])[/] 5 entries
+2022-02-19 11:18:14.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:59992]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:18:23.993  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60023 authenticated
+2022-02-19 11:18:24.025  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:18:24.134 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60023])[/] 5 entries
+2022-02-19 11:28:25.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60023]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:28:35.134  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60052 authenticated
+2022-02-19 11:28:35.165  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:28:35.243 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60052])[/] 5 entries
+2022-02-19 11:38:36.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60052]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:38:46.194  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60071 authenticated
+2022-02-19 11:38:46.226  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:38:46.304 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60071])[/] 5 entries
+2022-02-19 11:48:47.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60071]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:48:57.274  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60091 authenticated
+2022-02-19 11:48:57.305  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:48:57.384 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60091])[/] 5 entries
+2022-02-19 11:58:58.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60091]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 11:59:08.055  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60153 authenticated
+2022-02-19 11:59:08.086  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 11:59:08.164 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60153])[/] 5 entries
+2022-02-19 12:09:09.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60153]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 12:09:19.148  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60174 authenticated
+2022-02-19 12:09:19.179  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 12:09:19.273 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60174])[/] 5 entries
+2022-02-19 12:19:20.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60174]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 12:19:30.289  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60222 authenticated
+2022-02-19 12:19:30.321  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 12:19:30.399 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60222])[/] 5 entries
+2022-02-19 12:29:31.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60222]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 12:29:41.023  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60265 authenticated
+2022-02-19 12:29:41.054  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 12:29:41.132 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60265])[/] 5 entries
+2022-02-19 12:39:42.571  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60265]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 12:39:52.209  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60297 authenticated
+2022-02-19 12:39:52.240  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 12:39:52.341 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60297])[/] 5 entries
+2022-02-19 12:49:53.565  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60297]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 12:50:02.902  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60324 authenticated
+2022-02-19 12:50:02.934  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 12:50:03.054 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60324])[/] 5 entries
+2022-02-19 13:00:04.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60324]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:00:14.227  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60373 authenticated
+2022-02-19 13:00:14.259  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:00:14.337 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60373])[/] 5 entries
+2022-02-19 13:10:15.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60373]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:10:25.023  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60404 authenticated
+2022-02-19 13:10:25.055  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:10:25.133 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60404])[/] 5 entries
+2022-02-19 13:20:26.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60404]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:20:36.235  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60429 authenticated
+2022-02-19 13:20:36.266  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:20:36.344 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60429])[/] 5 entries
+2022-02-19 13:30:37.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60429]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:30:46.891  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60462 authenticated
+2022-02-19 13:30:46.923  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:30:47.001 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60462])[/] 5 entries
+2022-02-19 13:40:48.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60462]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:40:58.069  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60487 authenticated
+2022-02-19 13:40:58.101  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:40:58.209 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60487])[/] 5 entries
+2022-02-19 13:50:59.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60487]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 13:51:09.273  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60521 authenticated
+2022-02-19 13:51:09.304  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 13:51:09.382 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60521])[/] 5 entries
+2022-02-19 14:01:10.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60521]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:01:20.257  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60549 authenticated
+2022-02-19 14:01:20.288  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:01:20.378 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60549])[/] 5 entries
+2022-02-19 14:11:21.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60549]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:11:31.242  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60580 authenticated
+2022-02-19 14:11:31.273  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:11:31.351 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60580])[/] 5 entries
+2022-02-19 14:21:32.568  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60580]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:21:41.996  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60650 authenticated
+2022-02-19 14:21:42.028  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:21:42.106 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60650])[/] 5 entries
+2022-02-19 14:31:43.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60650]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:31:53.148  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60722 authenticated
+2022-02-19 14:31:53.179  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:31:53.258 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60722])[/] 5 entries
+2022-02-19 14:41:54.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60722]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:42:04.313  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60774 authenticated
+2022-02-19 14:42:04.344  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:42:04.422 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60774])[/] 5 entries
+2022-02-19 14:52:05.569  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60774]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-19 14:52:15.024  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:60798 authenticated
+2022-02-19 14:52:15.055  INFO DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : USUARIO INICIO BREO01
+2022-02-19 14:52:15.133 DEBUG DESKTOP-MUS1L0F --- [system-thread-1] c.a.d.c.s.s.MySftpServer$1               : read(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60798])[/] 5 entries
+2022-02-19 15:02:16.585  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:60798]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.

@@ -1,0 +1,616 @@
+2022-02-10 20:36:30.506  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 17636 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-10 20:36:30.509 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-10 20:36:30.510  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-10 20:36:38.928  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-10 20:36:38.961  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-10 20:36:39.153  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-10 20:36:39.153  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-10 20:36:39.156  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-10 20:36:39.156  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-10 20:36:39.157  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-10 20:36:39.181  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-10 20:36:39.204  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-10 20:36:39.305  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 9.224 seconds (JVM running for 13.497)
+2022-02-10 20:37:05.479  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:54737 authenticated
+2022-02-10 20:59:53.216  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:54737]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 21:00:03.515  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:55316 authenticated
+2022-02-10 22:11:52.716  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 11532 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-10 22:11:52.716 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-10 22:11:52.716  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-10 22:11:53.165  WARN DESKTOP-MUS1L0F --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mySftpServer': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.alo.digital.conectividad.sftpserver.service.MySftpServer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2022-02-10 22:11:53.180  INFO DESKTOP-MUS1L0F --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 22:11:53.220 ERROR DESKTOP-MUS1L0F --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mySftpServer': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.alo.digital.conectividad.sftpserver.service.MySftpServer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.alo.digital.conectividad.sftpserver.SftpserverApplication.main(SftpserverApplication.java:10)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.alo.digital.conectividad.sftpserver.service.MySftpServer] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 17 more
+Caused by: java.lang.NoClassDefFoundError: org/apache/sshd/server/session/ServerSession
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: org.apache.sshd.server.session.ServerSession
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 23 more
+2022-02-10 22:13:24.853  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 13420 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-10 22:13:24.853 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-10 22:13:24.853  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-10 22:13:25.275  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-10 22:13:25.307  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-10 22:13:25.494  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-10 22:13:25.525  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-10 22:13:25.603  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.152 seconds (JVM running for 2.97)
+2022-02-10 22:31:38.827  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 18124 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-10 22:31:38.843 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-10 22:31:38.843  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-10 22:31:39.249  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-10 22:31:39.249  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-10 22:31:39.343  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-10 22:31:39.343  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:31:39.358  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-10 22:31:39.358  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:31:39.358  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-10 22:31:39.358  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-10 22:31:39.374  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-10 22:31:39.452  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.079 seconds (JVM running for 2.95)
+2022-02-10 22:32:20.579  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62033 authenticated
+2022-02-10 22:32:20.610  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62033] 94
+2022-02-10 22:32:20.610  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62033] 95
+2022-02-10 22:32:20.642 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62033]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:32:43.213  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62035 authenticated
+2022-02-10 22:32:43.213  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62035] 94
+2022-02-10 22:32:43.213  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62035] 95
+2022-02-10 22:32:43.245 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62035]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:33:15.797  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62039 authenticated
+2022-02-10 22:33:15.797  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62039] 94
+2022-02-10 22:33:15.797  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62039] 95
+2022-02-10 22:33:15.828 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62039]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:33:25.183  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62040 authenticated
+2022-02-10 22:33:25.183  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62040] 94
+2022-02-10 22:33:25.183  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62040] 95
+2022-02-10 22:33:25.214 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62040]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:33:34.624  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62041 authenticated
+2022-02-10 22:33:34.624  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62041] 94
+2022-02-10 22:33:34.624  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62041] 95
+2022-02-10 22:33:34.655 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62041]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:33:44.031  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62042 authenticated
+2022-02-10 22:33:44.031  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62042] 94
+2022-02-10 22:33:44.031  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62042] 95
+2022-02-10 22:33:44.062 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62042]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:33:53.415  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62043 authenticated
+2022-02-10 22:33:53.415  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62043] 94
+2022-02-10 22:33:53.415  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62043] 95
+2022-02-10 22:33:53.447 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62043]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:02.839  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62044 authenticated
+2022-02-10 22:34:02.839  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62044] 94
+2022-02-10 22:34:02.839  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62044] 95
+2022-02-10 22:34:02.870 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62044]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:12.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62045 authenticated
+2022-02-10 22:34:12.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62045] 94
+2022-02-10 22:34:12.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62045] 95
+2022-02-10 22:34:12.322 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62045]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:21.750  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62046 authenticated
+2022-02-10 22:34:21.750  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62046] 94
+2022-02-10 22:34:21.750  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62046] 95
+2022-02-10 22:34:21.781 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62046]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:31.153  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62047 authenticated
+2022-02-10 22:34:31.153  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62047] 94
+2022-02-10 22:34:31.153  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62047] 95
+2022-02-10 22:34:31.184 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62047]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:40.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62048 authenticated
+2022-02-10 22:34:40.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62048] 94
+2022-02-10 22:34:40.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62048] 95
+2022-02-10 22:34:40.563 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62048]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:49.906  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62053 authenticated
+2022-02-10 22:34:49.906  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62053] 94
+2022-02-10 22:34:49.906  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62053] 95
+2022-02-10 22:34:50.000 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62053]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:34:59.652  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62063 authenticated
+2022-02-10 22:34:59.652  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62063] 94
+2022-02-10 22:34:59.652  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62063] 95
+2022-02-10 22:34:59.683 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62063]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:09.086  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62064 authenticated
+2022-02-10 22:35:09.086  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62064] 94
+2022-02-10 22:35:09.086  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62064] 95
+2022-02-10 22:35:09.117 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62064]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:18.554  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62065 authenticated
+2022-02-10 22:35:18.554  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62065] 94
+2022-02-10 22:35:18.554  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62065] 95
+2022-02-10 22:35:18.585 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62065]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:28.035  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62068 authenticated
+2022-02-10 22:35:28.035  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62068] 94
+2022-02-10 22:35:28.035  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62068] 95
+2022-02-10 22:35:28.066 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62068]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:37.412  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62069 authenticated
+2022-02-10 22:35:37.412  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62069] 94
+2022-02-10 22:35:37.412  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62069] 95
+2022-02-10 22:35:37.443 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62069]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:46.879  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62070 authenticated
+2022-02-10 22:35:46.879  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62070] 94
+2022-02-10 22:35:46.879  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62070] 95
+2022-02-10 22:35:46.910 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62070]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:35:56.304  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62071 authenticated
+2022-02-10 22:35:56.304  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62071] 94
+2022-02-10 22:35:56.304  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62071] 95
+2022-02-10 22:35:56.335 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62071]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:05.720  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62072 authenticated
+2022-02-10 22:36:05.720  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62072] 94
+2022-02-10 22:36:05.720  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62072] 95
+2022-02-10 22:36:05.751 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62072]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:15.082  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62073 authenticated
+2022-02-10 22:36:15.082  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62073] 94
+2022-02-10 22:36:15.082  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62073] 95
+2022-02-10 22:36:15.113 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62073]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:24.542  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62074 authenticated
+2022-02-10 22:36:24.542  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62074] 94
+2022-02-10 22:36:24.542  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62074] 95
+2022-02-10 22:36:24.573 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62074]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:34.017  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62075 authenticated
+2022-02-10 22:36:34.017  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62075] 94
+2022-02-10 22:36:34.017  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62075] 95
+2022-02-10 22:36:34.048 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62075]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:43.405  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62076 authenticated
+2022-02-10 22:36:43.405  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62076] 94
+2022-02-10 22:36:43.405  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62076] 95
+2022-02-10 22:36:43.436 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62076]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:36:52.785  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62077 authenticated
+2022-02-10 22:36:52.785  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62077] 94
+2022-02-10 22:36:52.785  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62077] 95
+2022-02-10 22:36:52.816 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62077]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:02.164  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62078 authenticated
+2022-02-10 22:37:02.164  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62078] 94
+2022-02-10 22:37:02.164  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62078] 95
+2022-02-10 22:37:02.195 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62078]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:11.606  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62079 authenticated
+2022-02-10 22:37:11.606  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62079] 94
+2022-02-10 22:37:11.606  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62079] 95
+2022-02-10 22:37:11.637 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62079]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:21.105  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62081 authenticated
+2022-02-10 22:37:21.105  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62081] 94
+2022-02-10 22:37:21.105  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62081] 95
+2022-02-10 22:37:21.136 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62081]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:30.539  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62082 authenticated
+2022-02-10 22:37:30.539  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62082] 94
+2022-02-10 22:37:30.539  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62082] 95
+2022-02-10 22:37:30.570 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62082]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:39.917  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62083 authenticated
+2022-02-10 22:37:39.917  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62083] 94
+2022-02-10 22:37:39.917  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62083] 95
+2022-02-10 22:37:39.949 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62083]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:49.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62084 authenticated
+2022-02-10 22:37:49.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62084] 94
+2022-02-10 22:37:49.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62084] 95
+2022-02-10 22:37:49.322 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62084]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:37:58.730  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62087 authenticated
+2022-02-10 22:37:58.730  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62087] 94
+2022-02-10 22:37:58.730  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62087] 95
+2022-02-10 22:37:58.762 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62087]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:08.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62088 authenticated
+2022-02-10 22:38:08.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62088] 94
+2022-02-10 22:38:08.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62088] 95
+2022-02-10 22:38:08.186 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62088]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:17.589  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62089 authenticated
+2022-02-10 22:38:17.589  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62089] 94
+2022-02-10 22:38:17.589  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62089] 95
+2022-02-10 22:38:17.621 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62089]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:27.027  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62090 authenticated
+2022-02-10 22:38:27.027  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62090] 94
+2022-02-10 22:38:27.027  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62090] 95
+2022-02-10 22:38:27.058 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62090]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:36.502  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62091 authenticated
+2022-02-10 22:38:36.502  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62091] 94
+2022-02-10 22:38:36.502  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62091] 95
+2022-02-10 22:38:36.533 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62091]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:45.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62092 authenticated
+2022-02-10 22:38:45.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62092] 94
+2022-02-10 22:38:45.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62092] 95
+2022-02-10 22:38:45.938 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62092]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:38:55.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62093 authenticated
+2022-02-10 22:38:55.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62093] 94
+2022-02-10 22:38:55.288  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62093] 95
+2022-02-10 22:38:55.320 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62093]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:04.716  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62094 authenticated
+2022-02-10 22:39:04.716  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62094] 94
+2022-02-10 22:39:04.716  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62094] 95
+2022-02-10 22:39:04.747 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62094]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:14.123  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62095 authenticated
+2022-02-10 22:39:14.123  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62095] 94
+2022-02-10 22:39:14.123  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62095] 95
+2022-02-10 22:39:14.154 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62095]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:23.597  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62096 authenticated
+2022-02-10 22:39:23.597  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62096] 94
+2022-02-10 22:39:23.597  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62096] 95
+2022-02-10 22:39:23.629 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62096]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:33.028  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62097 authenticated
+2022-02-10 22:39:33.028  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62097] 94
+2022-02-10 22:39:33.028  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62097] 95
+2022-02-10 22:39:33.059 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62097]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:42.464  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62098 authenticated
+2022-02-10 22:39:42.464  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62098] 94
+2022-02-10 22:39:42.464  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62098] 95
+2022-02-10 22:39:42.495 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62098]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:39:51.884  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62101 authenticated
+2022-02-10 22:39:51.884  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62101] 94
+2022-02-10 22:39:51.884  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62101] 95
+2022-02-10 22:39:51.915 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62101]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:01.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62102 authenticated
+2022-02-10 22:40:01.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62102] 94
+2022-02-10 22:40:01.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62102] 95
+2022-02-10 22:40:01.322 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62102]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:10.666  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62104 authenticated
+2022-02-10 22:40:10.666  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62104] 94
+2022-02-10 22:40:10.666  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62104] 95
+2022-02-10 22:40:10.697 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62104]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:20.121  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62105 authenticated
+2022-02-10 22:40:20.121  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62105] 94
+2022-02-10 22:40:20.121  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62105] 95
+2022-02-10 22:40:20.152 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62105]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:29.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62106 authenticated
+2022-02-10 22:40:29.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62106] 94
+2022-02-10 22:40:29.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62106] 95
+2022-02-10 22:40:29.563 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62106]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:38.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62107 authenticated
+2022-02-10 22:40:38.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62107] 94
+2022-02-10 22:40:38.907  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62107] 95
+2022-02-10 22:40:38.938 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62107]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:48.375  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62108 authenticated
+2022-02-10 22:40:48.375  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62108] 94
+2022-02-10 22:40:48.375  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62108] 95
+2022-02-10 22:40:48.406 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62108]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:40:57.782  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62109 authenticated
+2022-02-10 22:40:57.782  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62109] 94
+2022-02-10 22:40:57.782  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62109] 95
+2022-02-10 22:40:57.813 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62109]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:07.252  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62110 authenticated
+2022-02-10 22:41:07.252  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62110] 94
+2022-02-10 22:41:07.252  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62110] 95
+2022-02-10 22:41:07.283 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62110]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:16.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62111 authenticated
+2022-02-10 22:41:16.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62111] 94
+2022-02-10 22:41:16.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62111] 95
+2022-02-10 22:41:16.697 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62111]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:26.043  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62116 authenticated
+2022-02-10 22:41:26.043  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62116] 94
+2022-02-10 22:41:26.043  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62116] 95
+2022-02-10 22:41:26.074 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62116]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:35.404  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62119 authenticated
+2022-02-10 22:41:35.404  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62119] 94
+2022-02-10 22:41:35.404  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62119] 95
+2022-02-10 22:41:35.435 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62119]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:44.784  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62120 authenticated
+2022-02-10 22:41:44.784  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62120] 94
+2022-02-10 22:41:44.784  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62120] 95
+2022-02-10 22:41:44.815 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62120]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:41:54.177  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62121 authenticated
+2022-02-10 22:41:54.177  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62121] 94
+2022-02-10 22:41:54.177  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62121] 95
+2022-02-10 22:41:54.208 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62121]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:03.629  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62122 authenticated
+2022-02-10 22:42:03.629  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62122] 94
+2022-02-10 22:42:03.629  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62122] 95
+2022-02-10 22:42:03.660 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62122]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:13.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62123 authenticated
+2022-02-10 22:42:13.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62123] 94
+2022-02-10 22:42:13.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62123] 95
+2022-02-10 22:42:13.111 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62123]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:22.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62126 authenticated
+2022-02-10 22:42:22.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62126] 94
+2022-02-10 22:42:22.532  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62126] 95
+2022-02-10 22:42:22.564 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62126]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:31.904  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62127 authenticated
+2022-02-10 22:42:31.904  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62127] 94
+2022-02-10 22:42:31.904  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62127] 95
+2022-02-10 22:42:31.935 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62127]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:41.344  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62128 authenticated
+2022-02-10 22:42:41.344  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62128] 94
+2022-02-10 22:42:41.344  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62128] 95
+2022-02-10 22:42:41.375 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62128]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:42:50.774  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62129 authenticated
+2022-02-10 22:42:50.774  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62129] 94
+2022-02-10 22:42:50.774  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62129] 95
+2022-02-10 22:42:50.805 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62129]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:00.257  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62131 authenticated
+2022-02-10 22:43:00.257  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62131] 94
+2022-02-10 22:43:00.257  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62131] 95
+2022-02-10 22:43:00.289 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62131]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:09.661  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62132 authenticated
+2022-02-10 22:43:09.661  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62132] 94
+2022-02-10 22:43:09.661  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62132] 95
+2022-02-10 22:43:09.692 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62132]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:19.042  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62133 authenticated
+2022-02-10 22:43:19.042  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62133] 94
+2022-02-10 22:43:19.042  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62133] 95
+2022-02-10 22:43:19.073 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62133]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:28.403  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62140 authenticated
+2022-02-10 22:43:28.403  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62140] 94
+2022-02-10 22:43:28.403  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62140] 95
+2022-02-10 22:43:28.435 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62140]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:37.778  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62141 authenticated
+2022-02-10 22:43:37.778  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62141] 94
+2022-02-10 22:43:37.778  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62141] 95
+2022-02-10 22:43:37.810 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62141]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:47.272  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62142 authenticated
+2022-02-10 22:43:47.272  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62142] 94
+2022-02-10 22:43:47.272  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62142] 95
+2022-02-10 22:43:47.303 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62142]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:43:56.653  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62143 authenticated
+2022-02-10 22:43:56.653  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62143] 94
+2022-02-10 22:43:56.653  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62143] 95
+2022-02-10 22:43:56.684 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62143]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:06.033  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62144 authenticated
+2022-02-10 22:44:06.033  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62144] 94
+2022-02-10 22:44:06.033  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62144] 95
+2022-02-10 22:44:06.064 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62144]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:15.459  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62145 authenticated
+2022-02-10 22:44:15.459  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62145] 94
+2022-02-10 22:44:15.459  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62145] 95
+2022-02-10 22:44:15.490 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62145]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:24.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62146 authenticated
+2022-02-10 22:44:24.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62146] 94
+2022-02-10 22:44:24.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62146] 95
+2022-02-10 22:44:24.942 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62146]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:34.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62147 authenticated
+2022-02-10 22:44:34.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62147] 94
+2022-02-10 22:44:34.290  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62147] 95
+2022-02-10 22:44:34.321 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62147]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:43.756  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62148 authenticated
+2022-02-10 22:44:43.756  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62148] 94
+2022-02-10 22:44:43.756  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62148] 95
+2022-02-10 22:44:43.788 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62148]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:44:53.226  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62149 authenticated
+2022-02-10 22:44:53.226  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62149] 94
+2022-02-10 22:44:53.226  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62149] 95
+2022-02-10 22:44:53.257 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62149]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:02.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62150 authenticated
+2022-02-10 22:45:02.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62150] 94
+2022-02-10 22:45:02.665  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62150] 95
+2022-02-10 22:45:02.696 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62150]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:12.084  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62151 authenticated
+2022-02-10 22:45:12.084  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62151] 94
+2022-02-10 22:45:12.084  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62151] 95
+2022-02-10 22:45:12.115 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62151]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:21.489  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62153 authenticated
+2022-02-10 22:45:21.489  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62153] 94
+2022-02-10 22:45:21.489  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62153] 95
+2022-02-10 22:45:21.520 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62153]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:30.927  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62154 authenticated
+2022-02-10 22:45:30.927  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62154] 94
+2022-02-10 22:45:30.927  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62154] 95
+2022-02-10 22:45:30.958 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62154]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:40.381  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62155 authenticated
+2022-02-10 22:45:40.381  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62155] 94
+2022-02-10 22:45:40.381  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62155] 95
+2022-02-10 22:45:40.412 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62155]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:49.845  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62156 authenticated
+2022-02-10 22:45:49.861  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62156] 94
+2022-02-10 22:45:49.861  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62156] 95
+2022-02-10 22:45:49.970 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62156]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:45:59.663  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62165 authenticated
+2022-02-10 22:45:59.663  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62165] 94
+2022-02-10 22:45:59.663  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62165] 95
+2022-02-10 22:45:59.694 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62165]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:09.053  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62166 authenticated
+2022-02-10 22:46:09.053  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62166] 94
+2022-02-10 22:46:09.053  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62166] 95
+2022-02-10 22:46:09.084 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62166]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:18.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62167 authenticated
+2022-02-10 22:46:18.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62167] 94
+2022-02-10 22:46:18.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62167] 95
+2022-02-10 22:46:18.557 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62167]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:27.914  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62168 authenticated
+2022-02-10 22:46:27.914  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62168] 94
+2022-02-10 22:46:27.914  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62168] 95
+2022-02-10 22:46:27.945 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62168]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:37.293  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62170 authenticated
+2022-02-10 22:46:37.293  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62170] 94
+2022-02-10 22:46:37.293  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62170] 95
+2022-02-10 22:46:37.324 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62170]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:46.660  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62171 authenticated
+2022-02-10 22:46:46.660  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62171] 94
+2022-02-10 22:46:46.660  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62171] 95
+2022-02-10 22:46:46.692 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62171]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:46:56.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62172 authenticated
+2022-02-10 22:46:56.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62172] 94
+2022-02-10 22:46:56.080  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62172] 95
+2022-02-10 22:46:56.112 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62172]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:05.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62173 authenticated
+2022-02-10 22:47:05.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62173] 94
+2022-02-10 22:47:05.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62173] 95
+2022-02-10 22:47:05.560 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62173]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:14.912  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62177 authenticated
+2022-02-10 22:47:14.912  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62177] 94
+2022-02-10 22:47:14.912  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62177] 95
+2022-02-10 22:47:14.944 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62177]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:24.323  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62179 authenticated
+2022-02-10 22:47:24.323  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62179] 94
+2022-02-10 22:47:24.323  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62179] 95
+2022-02-10 22:47:24.354 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62179]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:33.738  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62180 authenticated
+2022-02-10 22:47:33.738  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62180] 94
+2022-02-10 22:47:33.738  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62180] 95
+2022-02-10 22:47:33.769 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62180]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:43.162  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62181 authenticated
+2022-02-10 22:47:43.162  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62181] 94
+2022-02-10 22:47:43.162  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62181] 95
+2022-02-10 22:47:43.193 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62181]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:47:52.587  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62182 authenticated
+2022-02-10 22:47:52.587  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62182] 94
+2022-02-10 22:47:52.587  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62182] 95
+2022-02-10 22:47:52.618 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62182]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:01.994  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62184 authenticated
+2022-02-10 22:48:01.994  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62184] 94
+2022-02-10 22:48:01.994  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62184] 95
+2022-02-10 22:48:02.025 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62184]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:11.586  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62185 authenticated
+2022-02-10 22:48:11.589  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62185] 94
+2022-02-10 22:48:11.589  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62185] 95
+2022-02-10 22:48:11.646 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62185]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:21.106  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62186 authenticated
+2022-02-10 22:48:21.108  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62186] 94
+2022-02-10 22:48:21.108  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62186] 95
+2022-02-10 22:48:21.139 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62186]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:30.586  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62187 authenticated
+2022-02-10 22:48:30.586  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62187] 94
+2022-02-10 22:48:30.586  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62187] 95
+2022-02-10 22:48:30.617 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62187]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:40.045  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62188 authenticated
+2022-02-10 22:48:40.045  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62188] 94
+2022-02-10 22:48:40.045  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62188] 95
+2022-02-10 22:48:40.076 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62188]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:49.438  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62189 authenticated
+2022-02-10 22:48:49.438  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62189] 94
+2022-02-10 22:48:49.438  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62189] 95
+2022-02-10 22:48:49.470 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62189]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:48:58.898  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62190 authenticated
+2022-02-10 22:48:58.898  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62190] 94
+2022-02-10 22:48:58.898  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62190] 95
+2022-02-10 22:48:58.930 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62190]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:08.301  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62191 authenticated
+2022-02-10 22:49:08.302  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62191] 94
+2022-02-10 22:49:08.302  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62191] 95
+2022-02-10 22:49:08.333 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62191]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:17.753  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62192 authenticated
+2022-02-10 22:49:17.753  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62192] 94
+2022-02-10 22:49:17.753  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62192] 95
+2022-02-10 22:49:17.784 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62192]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:27.155  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62196 authenticated
+2022-02-10 22:49:27.155  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62196] 94
+2022-02-10 22:49:27.155  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62196] 95
+2022-02-10 22:49:27.186 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62196]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:36.594  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62197 authenticated
+2022-02-10 22:49:36.594  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62197] 94
+2022-02-10 22:49:36.594  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62197] 95
+2022-02-10 22:49:36.625 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62197]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:46.099  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62200 authenticated
+2022-02-10 22:49:46.101  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62200] 94
+2022-02-10 22:49:46.101  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62200] 95
+2022-02-10 22:49:46.145 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62200]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:49:55.534  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62202 authenticated
+2022-02-10 22:49:55.536  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62202] 94
+2022-02-10 22:49:55.536  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62202] 95
+2022-02-10 22:49:55.583 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62202]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:04.903  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62204 authenticated
+2022-02-10 22:50:04.903  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62204] 94
+2022-02-10 22:50:04.903  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62204] 95
+2022-02-10 22:50:04.934 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62204]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:14.340  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62205 authenticated
+2022-02-10 22:50:14.342  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62205] 94
+2022-02-10 22:50:14.342  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62205] 95
+2022-02-10 22:50:14.404 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62205]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:23.779  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62206 authenticated
+2022-02-10 22:50:23.779  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62206] 94
+2022-02-10 22:50:23.779  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62206] 95
+2022-02-10 22:50:23.810 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62206]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:33.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62207 authenticated
+2022-02-10 22:50:33.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62207] 94
+2022-02-10 22:50:33.154  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62207] 95
+2022-02-10 22:50:33.185 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62207]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:42.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62208 authenticated
+2022-02-10 22:50:42.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208] 94
+2022-02-10 22:50:42.526  INFO DESKTOP-MUS1L0F --- []-nio2-thread-1] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208] 95
+2022-02-10 22:50:42.558 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62208]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:50:51.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62209 authenticated
+2022-02-10 22:50:51.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62209] 94
+2022-02-10 22:50:51.911  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62209] 95
+2022-02-10 22:50:51.942 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62209]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:01.295  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62211 authenticated
+2022-02-10 22:51:01.295  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62211] 94
+2022-02-10 22:51:01.295  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62211] 95
+2022-02-10 22:51:01.326 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62211]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:10.674  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62212 authenticated
+2022-02-10 22:51:10.680  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62212] 94
+2022-02-10 22:51:10.680  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62212] 95
+2022-02-10 22:51:10.720 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62212]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:20.150  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62213 authenticated
+2022-02-10 22:51:20.150  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62213] 94
+2022-02-10 22:51:20.150  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62213] 95
+2022-02-10 22:51:20.182 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62213]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:29.541  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62214 authenticated
+2022-02-10 22:51:29.541  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62214] 94
+2022-02-10 22:51:29.541  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62214] 95
+2022-02-10 22:51:29.572 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62214]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:38.915  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62215 authenticated
+2022-02-10 22:51:38.915  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62215] 94
+2022-02-10 22:51:38.915  INFO DESKTOP-MUS1L0F --- []-nio2-thread-9] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62215] 95
+2022-02-10 22:51:38.946 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62215]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:48.281  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62216 authenticated
+2022-02-10 22:51:48.281  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62216] 94
+2022-02-10 22:51:48.281  INFO DESKTOP-MUS1L0F --- []-nio2-thread-3] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62216] 95
+2022-02-10 22:51:48.313 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62216]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:51:57.655  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62217 authenticated
+2022-02-10 22:51:57.655  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62217] 94
+2022-02-10 22:51:57.655  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62217] 95
+2022-02-10 22:51:57.686 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62217]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:52:07.091  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62218 authenticated
+2022-02-10 22:52:07.091  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62218] 94
+2022-02-10 22:52:07.091  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62218] 95
+2022-02-10 22:52:07.122 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62218]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:52:16.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-8] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62220 authenticated
+2022-02-10 22:52:16.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62220] 94
+2022-02-10 22:52:16.528  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62220] 95
+2022-02-10 22:52:16.559 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62220]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:52:25.901  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62221 authenticated
+2022-02-10 22:52:25.901  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62221] 94
+2022-02-10 22:52:25.901  INFO DESKTOP-MUS1L0F --- []-nio2-thread-4] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62221] 95
+2022-02-10 22:52:25.932 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62221]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:52:35.314  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62222 authenticated
+2022-02-10 22:52:35.314  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62222] 94
+2022-02-10 22:52:35.314  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] c.a.d.c.s.s.MySftpServer                 : ChannelSession[id=0, recipient=256]-ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62222] 95
+2022-02-10 22:52:35.345 ERROR DESKTOP-MUS1L0F --- [system-thread-1] o.a.s.s.s.s.SftpSubsystem                : run(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62222]) SshException caught in SFTP subsystem: 0
+2022-02-10 22:52:51.227  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Starting SftpserverApplication using Java 1.8.0_282 on DESKTOP-MUS1L0F with PID 10768 (E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver\target\classes started by Cesar´s in E:\Empresa Alo Digital\Herramientas\sftpserver\sftpserver)
+2022-02-10 22:52:51.229 DEBUG DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-10 22:52:51.231  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : No active profile set, falling back to default profiles: default
+2022-02-10 22:52:51.758  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : CARGANDO USUARIOS
+2022-02-10 22:52:51.759  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : INICIANDO SFTP3
+2022-02-10 22:52:51.886  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : port [2222]
+2022-02-10 22:52:51.886  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando claves de permiso para [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:52:51.888  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP acepta todas las claves publicas de authenticación 
+2022-02-10 22:52:51.888  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a la CARPETA [C:\POS\POSEXTERNO\FILES]
+2022-02-10 22:52:51.888  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Permitiendo acceso a las subcarpetas
+2022-02-10 22:52:51.902  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : Creando los usuarios.
+2022-02-10 22:52:51.924  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.s.MySftpServer                 : SFTP server INICIO
+2022-02-10 22:52:52.038  INFO DESKTOP-MUS1L0F --- [           main] c.a.d.c.s.SftpserverApplication          : Started SftpserverApplication in 1.291 seconds (JVM running for 3.862)
+2022-02-10 22:52:58.256  INFO DESKTOP-MUS1L0F --- []-nio2-thread-7] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62243 authenticated
+2022-02-10 23:02:59.927  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62243]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:03:09.414  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62301 authenticated
+2022-02-10 23:13:10.927  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62301]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:13:20.522  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62322 authenticated
+2022-02-10 23:23:21.922  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62322]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:23:31.764  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62349 authenticated
+2022-02-10 23:33:32.929  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62349]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:33:42.408  INFO DESKTOP-MUS1L0F --- []-nio2-thread-6] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62368 authenticated
+2022-02-10 23:43:43.921  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62368]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:43:53.399  INFO DESKTOP-MUS1L0F --- []-nio2-thread-5] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62382 authenticated
+2022-02-10 23:53:54.920  INFO DESKTOP-MUS1L0F --- [-timer-thread-1] o.a.s.s.s.ServerSessionImpl              : Disconnecting(ServerSessionImpl[BREO01@/0:0:0:0:0:0:0:1:62382]): SSH2_DISCONNECT_PROTOCOL_ERROR - User session has timed out idling after 600000 ms.
+2022-02-10 23:54:04.664  INFO DESKTOP-MUS1L0F --- []-nio2-thread-2] o.a.s.s.s.ServerUserAuthService          : Session BREO01@/0:0:0:0:0:0:0:1:62402 authenticated
